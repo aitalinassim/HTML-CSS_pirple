@@ -1,0 +1,113 @@
+@media screen and (max-width: 400px) {
+    body {background-color: white;}
+    .Titre{
+        padding-top: 0px;
+        font-weight: bold;
+        text-shadow:2px 2px 5px gray;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Lucida Sans';
+        color: tomato;
+    }
+    #intro {font-size: 18px}
+    .SousTitre{
+        padding-bottom: 24px;
+        text-align: center;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: bold;
+        color: indigo;
+    }
+    body ol:last-child{list-style: none; text-align: center; padding-left: 12%; padding-bottom: 3px;}
+}
+
+@media screen and (min-width: 401px) and (max-width: 750px) {
+    body {background-color: rgb(231, 142, 142)}
+    .Titre{
+        padding: 12px;
+        font-weight: bold;
+        text-shadow:2px 2px 5px gray;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 36px;
+        font-family: 'Lucida Sans';
+        color: white;
+    }
+    #intro {font-size: 22px; font-weight: bold;}
+    .SousTitre{
+        padding-top: 12px;
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+    }
+    body ol:last-child{list-style: none; text-align: center;}    
+    body ol+p {color: wheat; background-color: rgb(192, 91, 91); padding: 5px 10%; align-self: center;}
+}
+
+@media screen and (min-width: 751px) {
+    body {background-color: rgb(224, 93, 69); color: white}
+    .Titre{
+        padding: 20px;
+        font-weight: bold;
+        text-shadow:2px 2px 5px gray;
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 42px;
+        font-family: 'Lucida Sans';
+        color: white;
+    }
+    #intro {font-size: 26px; ; color: white}
+    .SousTitre{
+        padding: 5px;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+}
+
+body > p {
+    padding-left: 12%;
+    width: 75%;
+    text-align: center;
+    align-self: center;
+}
+
+body > p:last-child {
+    text-align: center;
+    align-self: center;
+}
+
+a {text-decoration: none;}
+a:hover {text-decoration: underline; color: white}
+
+.un-ordered-list{
+    list-style: circle;
+}
+
+.ordered-list{
+    list-style: lower-roman;
+}
+
+p.span {
+    font-style: italic;
+}
+
+span:last-child {
+    text-decoration: underline;
+}
+
+span:last-child:hover {
+    text-decoration: none;
+}
+
+p > span {
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(228, 27, 27);
+    text-shadow: 1px 1px 1px darkred;
+}
+
