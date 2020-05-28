@@ -1,3 +1,7 @@
+/*  css file of the index.html as sample for the exam of HTML CSS course
+    Course website: pirple.com
+    Student name: AIT-ALI Nacim  */
+
 body {
     margin: 0px;
 }
@@ -7,32 +11,6 @@ nav {
     display: flex;
     flex-direction: row;
     height: 30px;
-}
-
-@media screen and (max-width: 800px) {
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-    div {
-        display: flex;
-        flex-direction: column;
-    }
-    Section {
-        padding-top: 70px;
-    }
-    .COVID{
-        margin-top: 80px;
-    }
-    .titre2{
-        width: 100%;
-        font-size: 28px;
-        font-weight: normal;
-    }
-    .titre3{
-        width: 100%;        
-        font-size: 18px;
-    }
 }
 
 nav ul {
@@ -52,6 +30,7 @@ a:first-child{
     text-align: center;
     padding: 0px 16px;
     text-decoration: none;
+    cursor: pointer;
 }
 nav ul li{
     float: left;
@@ -98,6 +77,7 @@ Section {
     padding: 12px 0px;
     background-color: rgb(53, 53, 107);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .COVID:hover {
@@ -129,4 +109,130 @@ Section {
     text-align: center;
     font-size: 24px;
     font-family: Arial, Charcoal, sans-serif;
+}
+
+#articles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#tabl {
+    width: 30%;
+    padding: 20px 20px;
+}
+
+.titre4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Charcoal, sans-serif;
+}
+
+article div p{
+    font-size: 16px;
+    font-family: Arial, Charcoal, sans-serif;
+}
+
+.btn{
+    padding: 15px 0;
+    margin-right: 70px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Charcoal, sans-serif;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: rgb(67, 67, 211);
+}
+.btn1:hover{
+    background-color: rgb(33, 33, 138);
+}
+
+.btn2{
+    background-color: rgb(40, 3, 143);
+}
+.btn2:hover{
+    background-color: rgb(25, 3, 87);
+}
+
+.btn3{
+    background-color: rgb(226, 43, 19);
+}
+.btn3:hover{
+    background-color: rgb(156, 31, 15);
+}
+
+.content {
+    font-size: 42px;
+
+}
+
+footer div{
+    padding: 40px 0;
+    font-size: 14px;
+    font-family: Arial, Charcoal, sans-serif;
+}
+
+footer{
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    display: flex;
+}
+
+footer li{
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+
+/* in case of exploring via mobile phones */
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+    Section {
+        padding-top: 70px;
+    }
+    .COVID{
+        margin-top: 80px;
+    }
+    .titre2{
+        width: 100%;
+        font-size: 28px;
+        font-weight: normal;
+    }
+    .titre3{
+        width: 100%;        
+        font-size: 18px;
+    }
+    #articles {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    footer {
+        flex-direction: column;
+    }
 }
