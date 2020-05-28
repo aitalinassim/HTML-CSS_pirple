@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+    Section {
+        padding-top: 70px;
+    }
+    .COVID{
+        margin-top: 80px;
+    }
+    .titre2{
+        width: 100%;
+        font-size: 28px;
+        font-weight: normal;
+    }
+    .titre3{
+        width: 100%;        
+        font-size: 18px;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 10%;
+    margin-top: 10px;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+a:first-child{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+    display: inline-block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+nav ul li{
+    float: left;
+    padding: 5px 5px;
+}
+
+nav ul li:hover{
+    height: 20px;
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+
+.login {
+    z-index: 1;
+    position: relative;
+    padding-left: 250px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    justify-content: space-between;
+    
+}
+
+#logo {
+    position: relative;
+    left: -10px;
+    top: 0px;
+    z-index: 1;
+  }
+
+Section {
+    padding-top: 30px;
+}
+
+.COVID {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 12px 0px;
+    background-color: rgb(53, 53, 107);
+    border-radius: 5px;
+}
+
+.COVID:hover {
+    background-color: rgb(1, 1, 92);
+}
+
+.titre1 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.titre2 {
+    width: 60%;
+    margin-left: 20%;
+    padding-top: -10px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    font-family: Arial Black, Charcoal, sans-serif;
+}
+
+.titre3 {
+    margin-top: 20px;
+    width: 65%;
+    margin-left: 18%;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Charcoal, sans-serif;
+}
